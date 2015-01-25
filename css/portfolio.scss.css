@@ -1,0 +1,44 @@
+article, section, aside, hgroup, nav, header, footer, figure, figcaption {
+  display: block; }
+
+ul, li {
+  list-style-type: none;
+  display: inline-block; }
+
+body {
+	background: #ffffff;
+	margin: 0;
+	font-size: 12px;
+	line-height: 1.8em;
+	overflow-x: hidden;
+}
+
+#sidebar {
+	width: 20%;
+	margin: {
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	padding: {
+		top: 80px;
+		left: 2%;
+		right: 2%;
+		bottom: auto;
+	}
+	float: left;
+}
+
+.content {
+	width: 80%;
+	height: 100vh;
+	margin: {
+		top: 0;
+		left: auto;
+		right: 0;
+		bottom: auto;
+	}
+	float: left;
+	background: #e0e0e0;
+}
