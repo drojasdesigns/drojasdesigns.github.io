@@ -14,10 +14,47 @@
     margin-left: auto;
     margin-right: auto; }
 
+  .description_container {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/bg-black.png");
+    z-index: 6;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .description_container a, .description_container a:visited {
+      font-size: 14px;
+      color: #c8001f;
+      font-weight: 400; }
+    .description_container a:hover {
+      color: #ff0027;
+      transition: color 0.6s ease-in-out; }
+
   .desc {
     margin-top: 10px;
-    font-size: 13px;
-    line-height: 1.4em; }
+    font-size: 14px;
+    line-height: 1.4em;
+    color: #ffffff;
+    font-weight: 300;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+
+  #social {
+    width: 60%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-left: 0;
+    padding-top: 16px;
+    padding-right: 0;
+    padding-bottom: 0;
+    border-top: 1px solid #303030; }
+    #social li {
+      margin-left: 3%;
+      margin-right: 3%; }
 
   .content {
     clear: both;
@@ -31,51 +68,6 @@
 
   .red {
     height: 110%; }
-
-  .mobilemenu {
-    display: block;
-    width: 100%;
-    height: 100vh;
-    background: url("../assets/bg-black.png");
-    z-index: 6;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none; }
-    .mobilemenu a, .mobilemenu a:visited {
-      font-size: 14px;
-      color: #c8001f;
-      font-weight: 400; }
-    .mobilemenu a:hover {
-      color: #ff0027;
-      transition: color 0.6s ease-in-out; }
-
-  .mobiletext {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%); }
-
-  .mobiledesc {
-    width: 60%;
-    margin: auto;
-    color: #ffffff;
-    font-weight: 300;
-    font-size: 14px; }
-
-  #mobilesocial {
-    width: 60%;
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    padding-left: 0;
-    padding-top: 16px;
-    padding-right: 0;
-    padding-bottom: 0;
-    border-top: 1px solid #303030; }
-    #mobilesocial li {
-      margin-left: 3%;
-      margin-right: 3%; }
 
   .mobileexit {
     background: url("../assets/mobileexit.png") no-repeat;
