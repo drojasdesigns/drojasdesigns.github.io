@@ -2,7 +2,7 @@
   #sidebar {
     clear: both;
     width: 100%;
-    height: 140px;
+    height: 30px;
     position: relative;
     margin: 0; }
 
@@ -15,14 +15,14 @@
     margin-right: auto; }
 
   .description_container {
-    display: block;
     width: 100%;
     height: 100vh;
     background: url("../assets/bg-black.png");
     z-index: 6;
     position: absolute;
     top: 0;
-    left: 0; }
+    left: 0;
+    display: none; }
     .description_container a, .description_container a:visited {
       font-size: 14px;
       color: #c8001f;
@@ -81,7 +81,6 @@
     z-index: 800; }
 
   .mobiletab {
-    display: none;
     background: url("../assets/mobilemenu.png") no-repeat center center;
     background-size: 22px 22px;
     background-color: #414141;
