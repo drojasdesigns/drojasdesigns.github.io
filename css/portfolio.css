@@ -105,8 +105,7 @@ h2 {
   position: absolute;
   top: 0;
   right: 0;
-  display: none;
-  z-index: 20; }
+  display: none; }
 
 .work {
   width: 25%;
@@ -115,8 +114,7 @@ h2 {
   position: relative;
   float: left;
   margin: 0;
-  padding: 0;
-  z-index: 19; }
+  padding: 0; }
 
 .red {
   width: 100%;
@@ -132,8 +130,7 @@ h2 {
   left: 0;
   right: 0;
   text-align: center;
-  text-shadow: 0px 3px 2px #350910;
-  z-index: 20; }
+  text-shadow: 0px 3px 2px #350910; }
   .red p {
     color: #ffffff;
     font-weight: 300;

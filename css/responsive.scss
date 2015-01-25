@@ -40,9 +40,7 @@
 }
 
 .desc {
-  margin: {
-    top: 10px;
-  }
+  margin-top: 0;
   font-size: 14px;
   line-height: 1.4em;
   color: #ffffff;
@@ -50,6 +48,7 @@
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+  display: block;
 }
 
 #social {

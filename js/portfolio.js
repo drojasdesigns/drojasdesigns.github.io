@@ -24,4 +24,6 @@ if ($(window).width() >= 699) {
 		$(this).fadeTo('fast',0);
 	});
 
+
+
 });
