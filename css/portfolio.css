@@ -67,7 +67,8 @@ h2 {
   position: relative;
   display: inline-block;
   text-align: center;
-  margin-top: 60px; }
+  margin-top: 60px;
+  display: none; }
   .desc p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -144,52 +145,52 @@ h2 {
 
 /* WORKS */
 .project1 {
-  background: url("http://media-cache-ec0.pinimg.com/736x/43/c2/34/43c2345ea58dabb51535c4636df2422f.jpg") no-repeat;
+  background: url("../assets/thumb-pungo.png") no-repeat;
   background-size: cover; }
 
 .project2 {
-  background: url("http://media-cache-ak0.pinimg.com/736x/77/42/d9/7742d9919ba3f680fc2d4f015e101d49.jpg") no-repeat;
+  background: url("../assets/thumb-stormwater.png") no-repeat;
   background-size: cover; }
 
 .project3 {
-  background: url("http://media-cache-ak0.pinimg.com/474x/35/6b/c0/356bc0f422645762fbbcdd26174ecb49.jpg") no-repeat;
+  background: url("../assets/thumb-watkins.png") no-repeat;
   background-size: cover; }
 
 .project4 {
-  background: url("http://media-cache-ec0.pinimg.com/736x/31/1f/1c/311f1ca6036e032556fdffe6398c983d.jpg") no-repeat;
+  background: url("../assets/thumb-wine.png") no-repeat;
   background-size: cover; }
 
 .project5 {
-  background: url("http://media-cache-ak0.pinimg.com/736x/d5/5b/7b/d55b7b09b41615a2df39801c18c7683b.jpg") no-repeat;
+  background: url("../assets/thumb-jxtpz.png") no-repeat;
   background-size: cover; }
 
 .project6 {
-  background: url("http://media-cache-ec0.pinimg.com/736x/cc/59/9c/cc599c82ed3df1f3e9fffee796cf28d0.jpg") no-repeat;
+  background: url("../assets/thumb-aromas.png") no-repeat;
   background-size: cover; }
 
 .project7 {
-  background: url("http://media-cache-ak0.pinimg.com/736x/f2/fd/74/f2fd7430c9061ddcfa4b8d4494aa1a65.jpg") no-repeat;
+  background: url("../assets/thumb-greenpeace.png") no-repeat;
   background-size: cover; }
 
 .project8 {
-  background: url("http://media-cache-ak0.pinimg.com/474x/3f/bc/ee/3fbceec0b5f2c441c084c2043e0e11d8.jpg") no-repeat;
+  background: url("../assets/thumb-jeffjacobs.png") no-repeat;
   background-size: cover;
   background-size: cover; }
 
 .project9 {
-  background: url("http://media-cache-ec0.pinimg.com/736x/b6/76/99/b676996714a7731cceaab45134c86f5e.jpg") no-repeat;
+  background: url("../assets/thumb-vaquatics.png") no-repeat;
   background-size: cover; }
 
 .project10 {
-  background: url("http://media-cache-ec0.pinimg.com/736x/23/0b/d8/230bd8b8c578f77d40fd35f621c203d4.jpg") no-repeat;
+  background: url("../assets/thumb-bakery.png") no-repeat;
   background-size: cover; }
 
 .project11 {
-  background: url("http://media-cache-ak0.pinimg.com/474x/86/56/5d/86565d6a2cd94292a470537dba072158.jpg") no-repeat;
+  background: url("../assets/thumb-logos.png") no-repeat;
   background-size: cover; }
 
 .project12 {
-  background: url("http://media-cache-ec0.pinimg.com/736x/95/ca/82/95ca825ba2fe9da44dda1770d80f53bc.jpg") no-repeat;
+  background: url("../assets/thumb-orson.png") no-repeat;
   background-size: cover; }
 
 /*# sourceMappingURL=portfolio.css.map */
