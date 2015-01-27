@@ -33,6 +33,6 @@ $(document).ready(function() {
 	});
 
 	$('.red').click(function() {
-		$(this).css('visibility','hidden');
+		$(this).css('display','none');
 	});
 });
