@@ -220,7 +220,8 @@ h3 {
   display: inline-block;
   float: right;
   text-align: center;
-  display: none; }
+  display: none;
+  padding-bottom: 100px; }
   .projectpage p {
     width: 70%;
     margin-left: auto;
