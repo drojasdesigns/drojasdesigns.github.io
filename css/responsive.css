@@ -109,9 +109,8 @@
     margin-top: 0; }
 
   .logos {
-    width: 75%;
     margin-left: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-right: auto; } }
 @media only screen and (min-width: 700px) and (max-width: 899px) {
   .description_container {
