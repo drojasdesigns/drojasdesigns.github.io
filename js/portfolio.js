@@ -5,6 +5,7 @@ $(document).ready(function() {
 	    $('.desc').fadeIn(600);
 	    $('#social').fadeIn(600, function() {
 	    	$('.content').fadeIn(800);
+	    	$('.projectpage').fadeIn(800);
 	    });
 	});
 
