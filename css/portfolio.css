@@ -206,7 +206,14 @@ h2 {
 
 /* PROJECT PAGES */
 .projectpage {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  width: 75%;
+  height: 100vh;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none; }
 
 /* PROJECT11 LOGOS */
 
