@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
 // Initial Load
-$('#logo').fadeIn(400, function() {
-	    $('.desc').fadeIn(500);
+	$('#logo').fadeIn(400, function() {
+	    $('.desc').fadeIn(600);
 	    $('#social').fadeIn(600, function() {
 	    	$('.content').fadeIn(700);
 	    });

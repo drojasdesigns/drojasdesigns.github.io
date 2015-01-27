@@ -28,10 +28,11 @@ h2 {
   color: #ffffff;
   margin-left: 6%;
   margin-top: auto;
-  margin-bottom: 0;
+  margin-bottom: 14px;
   margin-right: 6%;
   padding: 0;
   letter-spacing: 0.08em;
+  line-height: 1.1em;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 20px; }
@@ -67,8 +68,7 @@ h2 {
   position: relative;
   display: inline-block;
   text-align: center;
-  margin-top: 60px;
-  display: none; }
+  margin-top: 60px; }
   .desc p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;

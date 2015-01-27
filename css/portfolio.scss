@@ -33,11 +33,12 @@ h2 {
 	margin: {
 		left: 6%;
 		top: auto;
-		bottom: 0;
+		bottom: 14px;
 		right: 6%;
 	}
 	padding: 0;
 	letter-spacing: 0.08em;
+	line-height: 1.1em;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
@@ -92,7 +93,6 @@ h2 {
 			right: 13%;
 		}
 	}
-	display: none;
 }	
 
 #social {
