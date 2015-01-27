@@ -1,220 +1,40 @@
-article, section, aside, hgroup, nav, header, footer, figure, figcaption {
-  display: block; }
+/*
+Error: Invalid CSS after "...JECT11 LOGOS *\/": expected "}", was ""
+        on line 258 of portfolio.scss
 
-ul, li {
-  list-style-type: none;
-  display: inline-block; }
+253: 		left: auto;
+254: 		right: auto;
+255: }
+256: /* PROJECT11 LOGOS *\/
 
-body {
-  background: url("../assets/bg-black.png") repeat;
-  margin: 0;
-  font-size: 14px;
-  line-height: 1.6em;
-  overflow-x: hidden;
-  font-family: 'Lato', sans-serif;
-  letter-spacing: 0.03em; }
-
-a, a:visited {
-  color: #700d1c;
-  text-decoration: none; }
-
-a:hover {
-  color: #e81d25;
-  transition: color 0.6s ease-in-out;
-  text-decoration: none; }
-
-/* HEADERS */
-h2 {
-  color: #ffffff;
-  margin-left: 6%;
-  margin-top: auto;
-  margin-bottom: 14px;
-  margin-right: 6%;
-  padding: 0;
-  letter-spacing: 0.08em;
-  line-height: 1.1em;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 20px; }
-
-/* LEFT */
-#sidebar {
-  display: none;
-  width: 25%;
-  height: 100vh;
-  padding-top: 80px;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: auto;
-  float: left;
-  background: url("../assets/bg.png") repeat;
-  background-color: #ffffff;
-  display: inline-block;
-  position: fixed;
-  text-align: center; }
-
-#logo {
-  width: 80%;
-  height: 74px;
-  background: url("../assets/logo.png") center center no-repeat;
-  background-size: contain;
-  clear: both;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  display: none; }
-
-.desc {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  margin-top: 60px; }
-  .desc p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    margin-left: 13%;
-    margin-right: 13%; }
-
-#social {
-  width: 80%;
-  height: 100px;
-  border-top: 1px solid #d6d6d6;
-  margin-left: auto;
-  margin-top: 50px;
-  margin-bottom: 0;
-  margin-right: auto;
-  padding-left: 0;
-  padding-top: 16px;
-  padding-bottom: auto;
-  padding-right: 0;
-  list-style-type: none;
-  font-weight: 300; }
-  #social li {
-    margin-left: 3%;
-    margin-right: 3%; }
-
-/* MOBILE TAB */
-.mobilemenu {
-  display: none; }
-
-/* CONTENT */
-.content {
-  width: 75%;
-  height: 100vh;
-  background-color: #000000;
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: none; }
-
-.work {
-  width: 25%;
-  height: 33.33%;
-  background-color: #000000;
-  position: relative;
-  float: left;
-  margin: 0;
-  padding: 0; }
-
-.red {
-  width: 100%;
-  height: 100%;
-  background-color: #700d1c;
-  background: url("../assets/bg-red.png") repeat;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  top: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  text-shadow: 0px 3px 2px #350910; }
-  .red p {
-    color: #ffffff;
-    font-weight: 300;
-    margin: auto;
-    padding: 0; }
-
-.projectname {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%); }
-
-/* WORKS */
-.project1 {
-  background: url("../assets/thumb-pungo.png") no-repeat;
-  background-size: cover;
-  background-position: center center; }
-
-.project2 {
-  background: url("../assets/thumb-stormwater.png") no-repeat;
-  background-size: cover;
-  background-position: center center; }
-
-.project3 {
-  background: url("../assets/thumb-watkins.png") no-repeat;
-  background-size: cover;
-  background-position: center center; }
-
-.project4 {
-  background: url("../assets/thumb-wine.png") no-repeat;
-  background-size: cover;
-  background-position: center center; }
-
-.project5 {
-  background: url("../assets/thumb-jxtpz.png") no-repeat;
-  background-size: cover;
-  background-position: center center; }
-
-.project6 {
-  background: url("../assets/thumb-aromas.png") no-repeat;
-  background-size: cover;
-  background-position: center center; }
-
-.project7 {
-  background: url("../assets/thumb-greenpeace.png") no-repeat;
-  background-size: cover;
-  background-position: center center; }
-
-.project8 {
-  background: url("../assets/thumb-jeffjacobs.png") no-repeat;
-  background-size: cover;
-  background-position: center center; }
-
-.project9 {
-  background: url("../assets/thumb-vaquatics.png") no-repeat;
-  background-size: cover;
-  background-position: center center; }
-
-.project10 {
-  background: url("../assets/thumb-bakery.png") no-repeat;
-  background-size: cover;
-  background-position: center center; }
-
-.project11 {
-  background: url("../assets/thumb-logos.png") no-repeat;
-  background-size: cover;
-  background-position: center center; }
-
-.project12 {
-  background: url("../assets/thumb-orson.png") no-repeat;
-  background-size: cover;
-  background-position: center center; }
-
-/* PROJECT PAGES */
-.projectpage {
-  background-color: #ffffff;
-  width: 75%;
-  height: 1800px;
-  display: inline-block;
-  float: right; }
-
-.logos {
-  width: 800px; }
-
-/* PROJECT11 LOGOS */
-
-/*# sourceMappingURL=portfolio.css.map */
+Backtrace:
+portfolio.scss:258
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/scss/parser.rb:1163:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/scss/parser.rb:1099:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/scss/parser.rb:1094:in `tok!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/scss/parser.rb:643:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/scss/parser.rb:635:in `ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/scss/parser.rb:660:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/scss/parser.rb:653:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/scss/parser.rb:42:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/engine.rb:393:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:489:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:469:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...JECT11 LOGOS */\": expected \"}\", was \"\"\A         on line 258 of portfolio.scss\A \A 253: 		left: auto;\A 254: 		right: auto;\A 255: }\A 256: /* PROJECT11 LOGOS */"; }
