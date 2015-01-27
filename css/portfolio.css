@@ -210,8 +210,7 @@ h2 {
   width: 75%;
   height: auto;
   display: inline-block;
-  top: 0;
-  right: 0; }
+  float: left; }
 
 .logos {
   width: 50%; }
