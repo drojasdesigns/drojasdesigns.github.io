@@ -4,7 +4,7 @@ $(document).ready(function() {
 	$('#logo').fadeIn(400, function() {
 	    $('.desc').fadeIn(600);
 	    $('#social').fadeIn(600, function() {
-	    	$('.content').fadeIn(700);
+	    	$('.content').fadeIn(800);
 	    });
 	});
 
@@ -32,6 +32,7 @@ $(document).ready(function() {
 		$(this).fadeTo('fast',0);
 	});
 
-
-
+	$('.red').click(function() {
+		$(this).fadeTo('fast',0);
+	});
 });
