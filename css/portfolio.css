@@ -6,7 +6,7 @@ ul, li {
   display: inline-block; }
 
 body {
-  background: url("../assets/bg-black.png") repeat;
+  background-color: #ffffff;
   margin: 0;
   font-size: 14px;
   line-height: 1.6em;
