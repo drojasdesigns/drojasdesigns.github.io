@@ -22,13 +22,7 @@ $(document).ready(function() {
 		$('body').css('overflow-y','hidden');	
 	});
 
-	$(window).resize(function() {
-		if ($(window).width() >= 699) {
-			$('.description_container').css('display','inline-block').fadeTo('fast',1);
-		} else {
-			$('.description_container').css('display','none');
-		}
-	});
+
 
 // Project Name on hover
 
