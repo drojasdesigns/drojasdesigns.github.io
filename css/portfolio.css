@@ -72,6 +72,14 @@ h3 {
   margin-right: auto;
   display: none; }
 
+.description_container {
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: inline-block;
+  position: relative;
+  background: none; }
+
 .desc {
   position: relative;
   display: inline-block;
