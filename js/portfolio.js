@@ -12,13 +12,15 @@ $(document).ready(function() {
 	$('.mobiletab').click(function () {
 		$('.description_container').fadeTo('fast',1).css('display','block');
 		$('.mobileexit').fadeTo('fast',1);
-		$('body').css('overflow-y','hidden');	
+		$('body').css('overflow-y','hidden');
+		$('.mobiletab').css('z-index','0');
 	});
 
 		$('.mobileexit').click(function () {
 		$('.description_container').css('display','none').fadeTo('fast',0, function() {
 			$('body').css('overflow-y','visible');
 			$('.mobileexit').fadeTo('fast',0);
+			$('.mobiletab').css('z-index','800');
 		});
 	});
 
