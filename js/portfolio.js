@@ -18,11 +18,11 @@ $(document).ready(function() {
 	});
 
 		$('.mobileexit').click(function () {
-		$('.description_container').css('display','none','z-index','0').fadeTo('fast',0, function() {
+		$('.description_container').css('display','none',).fadeTo('fast',0, function() {
 			$('body').css('overflow-y','visible');
 			$('.mobileexit').fadeTo('fast',0);
 			$('.mobiletab').css('z-index',1000);
-			$('#logo').css('z-index',1000);
+			$('#logo').css('z-index',1300);
 		});
 	});
 
