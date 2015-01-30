@@ -20,7 +20,7 @@ $(document).ready(function() {
 		$('.description_container').css('display','none').fadeTo('fast',0, function() {
 			$('body').css('overflow-y','visible');
 			$('.mobileexit').fadeTo('fast',0);
-			$('.mobiletab').fadeTo('fast',0);
+			$('.mobiletab').fadeTo('fast',1);
 		});
 	});
 
