@@ -22,7 +22,7 @@ $(document).ready(function() {
 			$('body').css('overflow-y','visible');
 			$('.mobileexit').fadeTo('fast',0);
 			$('.mobiletab').css('z-index',1000);
-			$('#logo').css('z-index',1300);
+			$('#logo').css('z-index',900);
 		});
 	});
 
