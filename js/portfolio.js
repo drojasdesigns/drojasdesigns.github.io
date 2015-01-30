@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
 // Initial Load
-	$('#logo').fadeIn(400, function() {
+	$('#logo').fadeIn(500, function() {
 	    $('.desc').fadeIn(600);
 	    $('#social').fadeIn(600, function() {
-	    	$('.content').fadeIn(800);
-	    	$('.projectpage').fadeIn(800);
+	    	$('.content').fadeIn(900);
+	    	$('.projectpage').fadeIn(900);
 	    });
 	});
 
