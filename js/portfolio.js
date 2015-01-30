@@ -11,7 +11,9 @@ $(document).ready(function() {
 // Mobile
 	$('.mobileexit').click(function () {
 		$('.description_container').fadeTo('fast',0, function() {
-			$('.description_container').css('display','inline-block');
+			if ($(window).width() > 699) {
+				($('.description_container').css('display','inline-block');
+				};
 			$('body').css('overflow-y','visible');
 		});
 	});
