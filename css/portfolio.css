@@ -160,6 +160,12 @@ h3 {
   top: 50%;
   transform: translateY(-50%); }
 
+.mobileexit {
+  display: none; }
+
+.mobiletab {
+  display: none; }
+
 /* WORKS */
 .project1 {
   background: url("../assets/thumb-pungo-1x.png") no-repeat;
