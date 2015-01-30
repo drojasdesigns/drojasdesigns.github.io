@@ -13,7 +13,7 @@ $(document).ready(function() {
 		$('.description_container').fadeTo('fast',0, function() {
 			if ($(window).width() > 699) {
 				($('.description_container').css('display','inline-block');
-				};
+				}
 			$('body').css('overflow-y','visible');
 		});
 	});
