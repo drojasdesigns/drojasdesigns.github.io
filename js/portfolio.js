@@ -10,11 +10,11 @@ $(document).ready(function() {
 
 // Mobile
 	$('.mobiletab').click(function () {
-		$('.description_container').fadeTo('fast',1).css('display','block','z-index','1000');
+		$('.description_container').fadeTo('fast',1).css('display','block');
 		$('.mobileexit').fadeTo('fast',1);
 		$('body').css('overflow-y','hidden');
-		$('.mobiletab').css('z-index',1);
-		$('#logo').css('z-index',0);
+		$('.mobiletab').css('z-index','1');
+		$('#logo').css('z-index','0');
 	});
 
 		$('.mobileexit').click(function () {
