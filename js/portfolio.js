@@ -11,7 +11,6 @@ $(document).ready(function() {
 // Mobile
 	$('.mobileexit').click(function () {
 		$('.description_container').fadeTo('fast',0, function() {
-			$('.description_container').css('display','none');
 			$('body').css('overflow-y','visible');
 			$('.mobileexit').fadeTo('fast',0);
 		});
@@ -21,6 +20,12 @@ $(document).ready(function() {
 		$('.description_container').fadeTo('fast',1).css('display','block');
 		$('.mobileexit').fadeTo('fast',1);
 		$('body').css('overflow-y','hidden');	
+	});
+
+	$(window).resize(function() {
+		if ($(window).width() >= 699) {
+			$('.description_container').css('display','inline-block');
+		}
 	});
 
 // Project Name on hover
