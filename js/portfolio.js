@@ -12,7 +12,6 @@ $(document).ready(function() {
 	$('.mobiletab').click(function () {
 		$('.description_container').fadeTo('fast',1).css('display','block');
 		$('.mobileexit').fadeTo('fast',1);
-		$('.mobiletab').fadeTo('fast',0);
 		$('body').css('overflow-y','hidden');	
 	});
 
@@ -20,7 +19,8 @@ $(document).ready(function() {
 		$('.description_container').css('display','none').fadeTo('fast',0, function() {
 			$('body').css('overflow-y','visible');
 			$('.mobileexit').fadeTo('fast',0);
-			$('.mobiletab').fadeTo('fast',1);
+			$('.mobiletab').css('z-index',1000);
+			$('#logo').css('z-index',800);
 		});
 	});
 
