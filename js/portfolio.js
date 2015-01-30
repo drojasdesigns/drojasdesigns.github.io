@@ -2,8 +2,7 @@ $(document).ready(function() {
 
 // Initial Load
 	$('#logo').fadeIn(500, function() {
-	    $('.desc').fadeIn(600);
-	    $('#social').fadeIn(600, function() {
+	    $('.desc').fadeIn(600, function() {
 	    	$('.content').fadeIn(900);
 	    	$('.projectpage').fadeIn(900);
 	    });
