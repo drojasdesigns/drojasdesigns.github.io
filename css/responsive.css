@@ -86,7 +86,8 @@
     position: absolute;
     top: 26px;
     right: 26px;
-    z-index: 800; }
+    z-index: 800;
+    display: block; }
 
   .mobiletab {
     background: url("../assets/mobilemenu.png") no-repeat center center;
@@ -99,7 +100,8 @@
     position: absolute;
     top: -6px;
     right: 10px;
-    z-index: 4; }
+    z-index: 4;
+    display: block; }
 
   .projectpage {
     clear: both;
