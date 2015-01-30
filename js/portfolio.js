@@ -24,7 +24,7 @@ $(document).ready(function() {
 
 	$(window).resize(function() {
 		if ($(window).width() >= 699) {
-			$('.description_container').css('display','inline-block');
+			$('.description_container').css('display','inline-block').fadeTo('fast',1);
 		} else {
 			$('.description_container').css('display','none');
 		}
