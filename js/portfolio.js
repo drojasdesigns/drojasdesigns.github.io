@@ -25,9 +25,9 @@ $(document).ready(function() {
 	$(window).resize(function() {
 		if ($(window).width() >= 699) {
 			$('.description_container').css('display','inline-block');
-		} else [
+		} else {
 			$('.description_container').css('display','none');
-		]
+		}
 	});
 
 // Project Name on hover
