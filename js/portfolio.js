@@ -27,7 +27,7 @@ $(document).ready(function() {
 	});
 
 	$(window).resize(function() {
-		if ($(window).width() >= 930) {
+		if ($(window).width() >= 699) {
 			$('.description_container').css('display','block').fadeTo('fast',1);
 		} else {
 			$('.description_container').css('display','none');
