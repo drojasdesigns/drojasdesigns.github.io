@@ -46,13 +46,15 @@ h2 {
 
 h3 {
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 300;
 	width: 70%;
 	margin: {
 		left: auto;
 		right: auto;
 	}
 	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
 }
 
 /* LEFT */
