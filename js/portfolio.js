@@ -15,6 +15,8 @@ $(document).ready(function() {
 		$('body').css('overflow-y','hidden');
 		$('.mobiletab').css('z-index','0');
 		$('#logo').css('z-index','0');
+		$('.content').css('z-index','0');
+		$('.projectpage').css('z-index','0');
 	});
 
 		$('.mobileexit').click(function () {
@@ -23,6 +25,8 @@ $(document).ready(function() {
 			$('.mobileexit').fadeTo('fast',0);
 			$('.mobiletab').css('z-index','800');
 			$('#logo').css('z-index','700');
+			$('.content').css('z-index','500');
+			$('.projectpage').css('z-index','500');
 		});
 	});
 
