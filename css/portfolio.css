@@ -249,6 +249,14 @@ h3 {
   margin-top: 50px;
   margin-right: auto; }
 
-/* PROJECT11 LOGOS */
+.exitpage {
+  background: url("../assets/exit_project.png") no-repeat;
+  background-size: 40px 40px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: block; }
 
 /*# sourceMappingURL=portfolio.css.map */
