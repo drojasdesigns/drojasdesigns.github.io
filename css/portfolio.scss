@@ -295,8 +295,19 @@ h3 {
 	}
 }
 
-.navpage {
+.navnext {
 	background: url('../assets/projnext.png') no-repeat;
+	background-size: 30px 30px;
+	background-position: center center;
+	width: 60px;
+	height: 60px;
+	position: relative;
+	display: block;
+	float: right;
+}
+
+.navprev {
+	background: url('../assets/projprev.png') no-repeat;
 	background-size: 30px 30px;
 	background-position: center center;
 	width: 60px;
