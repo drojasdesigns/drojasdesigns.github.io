@@ -263,7 +263,9 @@ h3 {
 .icon {
   width: 20px;
   height: 20px;
-  display: inline-block; }
+  display: inline-block;
+  vertical-align: center;
+  border: 0; }
 
 .pagenav {
   width: 100%; }
