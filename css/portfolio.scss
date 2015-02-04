@@ -293,7 +293,6 @@ h3 {
 		top: 50px;
 		right: auto;
 	}
-	clear: both;
 }
 
 .exitpage {
@@ -302,9 +301,9 @@ h3 {
 	background-position: center center;
 	width: 60px;
 	height: 60px;
-	float: right;
-	margin-right: 30px;
+	position: absolute;
+	top: 30px;
+	right: 1%;
 	display: block;
-	clear: both;
 }
 
