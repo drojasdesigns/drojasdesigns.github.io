@@ -249,17 +249,6 @@ h3 {
   margin-top: 50px;
   margin-right: auto; }
 
-.navnext {
-  background: url("../assets/projnext.png") no-repeat;
-  background-size: 25px 25px;
-  background-position: center center;
-  width: 60px;
-  height: 60px;
-  position: relative;
-  display: block;
-  float: right;
-  margin-right: 44%; }
-
 .icon {
   width: 20px;
   height: 20px;
@@ -272,16 +261,5 @@ h3 {
   .pagenav p {
     display: inline;
     margin: 30px; }
-
-.navprev {
-  background: url("../assets/projprev.png") no-repeat;
-  background-size: 25px 25px;
-  background-position: center center;
-  width: 60px;
-  height: 60px;
-  position: relative;
-  display: block;
-  float: left;
-  margin-left: 44%; }
 
 /*# sourceMappingURL=portfolio.css.map */
