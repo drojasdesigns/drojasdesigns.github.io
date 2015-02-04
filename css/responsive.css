@@ -113,7 +113,19 @@
   .images {
     margin-left: auto;
     margin-top: 20px;
-    margin-right: auto; } }
+    margin-right: auto; }
+
+  .exitpage {
+    background: url("../assets/exit_project.png") no-repeat;
+    background-size: 30px 30px;
+    background-position: center right;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: 1%;
+    right: 1%;
+    display: block;
+    clear: both; } }
 @media only screen and (min-width: 700px) and (max-width: 899px) {
   .description_container {
     display: block; } }
