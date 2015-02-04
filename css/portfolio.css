@@ -260,6 +260,10 @@ h3 {
   width: 100%; }
   .pagenav p {
     display: inline;
-    margin: 30px; }
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+    font-weight: 400; }
 
 /*# sourceMappingURL=portfolio.css.map */
