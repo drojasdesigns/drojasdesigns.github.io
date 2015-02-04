@@ -301,9 +301,8 @@ h3 {
 	background-position: center center;
 	width: 60px;
 	height: 60px;
-	position: absolute;
-	top: 30px;
-	right: 30px;
+	float: right;
+	margin-right: 30px;
 	display: block;
 }
 
