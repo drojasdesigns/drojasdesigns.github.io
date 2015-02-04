@@ -258,7 +258,7 @@ h3 {
   position: relative;
   display: block;
   float: right;
-  margin-right: 50%; }
+  margin-right: 44%; }
 
 .navprev {
   background: url("../assets/projprev.png") no-repeat;
@@ -269,6 +269,6 @@ h3 {
   position: relative;
   display: block;
   float: left;
-  margin-left: 50%; }
+  margin-left: 44%; }
 
 /*# sourceMappingURL=portfolio.css.map */
