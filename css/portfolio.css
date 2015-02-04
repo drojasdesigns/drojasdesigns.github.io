@@ -270,7 +270,8 @@ h3 {
 .pagenav {
   width: 100%; }
   .pagenav p {
-    display: inline; }
+    display: inline;
+    margin: 30px; }
 
 .navprev {
   background: url("../assets/projprev.png") no-repeat;
