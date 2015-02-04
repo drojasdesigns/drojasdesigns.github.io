@@ -257,6 +257,7 @@ h3 {
   height: 60px;
   float: right;
   margin-right: 30px;
-  display: block; }
+  display: block;
+  clear: both; }
 
 /*# sourceMappingURL=portfolio.css.map */
