@@ -260,6 +260,14 @@ h3 {
   float: right;
   margin-right: 44%; }
 
+.icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block; }
+
+.pagenav {
+  width: 100%; }
+
 .navprev {
   background: url("../assets/projprev.png") no-repeat;
   background-size: 25px 25px;
