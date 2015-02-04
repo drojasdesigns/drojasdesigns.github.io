@@ -249,15 +249,13 @@ h3 {
   margin-top: 50px;
   margin-right: auto; }
 
-.exitpage {
+.navpage {
   background: url("../assets/projnext.png") no-repeat;
   background-size: 30px 30px;
   background-position: center center;
   width: 60px;
   height: 60px;
-  position: absolute;
-  top: 1%;
-  right: 1%;
+  position: relative;
   display: block; }
 
 /*# sourceMappingURL=portfolio.css.map */
